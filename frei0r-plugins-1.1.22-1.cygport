@@ -1,0 +1,6 @@
+DESCRIPTION="Video effect plugin API"
+HOMEPAGE="http://www.piksel.org/frei0r"
+SRC_URI="http://propirate.net/frei0r/${P}.tar.gz"
+PATCH_URI="1.1.22-no-undefined.patch"
+
+CYGCONF_ARGS="--disable-static"
