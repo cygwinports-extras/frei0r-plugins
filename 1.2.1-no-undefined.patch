@@ -1,0 +1,11 @@
+--- origsrc/frei0r-plugins-1.2.1/src/Makefile.am	2010-10-04 05:29:52.000000000 -0500
++++ src/frei0r-plugins-1.2.1/src/Makefile.am	2010-11-03 00:12:55.538682200 -0500
+@@ -150,7 +150,7 @@ RGB_la_SOURCES = mixer3/RGB/RGB.c
+ 
+ AM_CPPFLAGS = -I@top_srcdir@/include 
+ AM_CFLAGS = -I@top_srcdir@/include 
+-AM_LDFLAGS = -module -avoid-version -lm -export-dynamic
++AM_LDFLAGS = -module -avoid-version -lm -export-dynamic -no-undefined -shrext .so
+ AM_LIBTOOLFLAGS = --tag=disable-static
+ 
+ plugindir = @libdir@/frei0r-1
