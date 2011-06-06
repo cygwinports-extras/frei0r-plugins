@@ -1,5 +1,6 @@
 category: Video
-requires: libcv2.1 libgavl1 libgcc1 libstdc++6
+requires:
+external-source: frei0r-plugins
 sdesc: "Video effect plugin API"
 ldesc: "Frei0r is a minimalistic plugin API for video sources and 
 filters. The behaviour of the effects can be controlled from the host by 
