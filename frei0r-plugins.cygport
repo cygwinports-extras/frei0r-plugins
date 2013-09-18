@@ -8,8 +8,8 @@ The behaviour of the effects can be controlled from the host by simple
 parameters. The intent is to solve the recurring reimplementation or
 adaptation issue of standard effects."
 HOMEPAGE="http://www.piksel.org/frei0r"
-SRC_URI="http://piksel.no/frei0r/releases/${P}.tar.gz"
-SRC_DIR="frei0r-${PV}"
+SRC_URI="http://piksel.no/frei0r/releases/${NAME}-${VERSION}.tar.gz"
+SRC_DIR="frei0r-${VERSION}"
 
 PATCH_URI="1.2.1-no-undefined.patch"
 
